@@ -1,0 +1,18 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+}
+@model MovieDetailsViewModel
+
+<h1>Details</h1>
+<h2>Rate: @Model.Rate</h2>
+<br />
+<div>Title: @Model.Title</div>
+<div>Producer: @Model.Producer</div>
+<div>Release date: @Model.Release_date</div>
+<div>Director: @Model.Director</div>
+<div>Opening: @Model.Opening_crawl</div>
+<div>Created: @Model.Created</div>
+<div>Edited: @Model.Edited</div>
+
+@await Html.PartialAsync("_RatePartial", new RateViewModel { MovieId = Model.Id })

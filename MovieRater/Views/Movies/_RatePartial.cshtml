@@ -1,0 +1,7 @@
+﻿@model RateViewModel
+
+<form method="post" asp-action="Rate" asp-controller="Movies">
+    <input type="hidden" asp-for="MovieId" value="@Model.MovieId" />
+    <input type="number" min="1" max="10" asp-for="Value">
+    <input type="submit" />
+</form>

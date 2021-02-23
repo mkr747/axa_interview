@@ -1,0 +1,13 @@
+﻿@model IEnumerable<MovieViewModel>
+@{
+    ViewData["Title"] = "Movies";
+}
+
+<h1>Index</h1>
+
+<ul>
+    @foreach (var movie in Model)
+    {
+        <li><a class="nav-link text-dark" href="/Movies/@movie.Id">@movie.Id -- @movie.Title</a></li>
+    }
+</ul>

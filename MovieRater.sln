@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MovieRater", "MovieRater\MovieRater.csproj", "{E1CD10A5-E6D0-4DCE-8CA5-8D8AEE28D203}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{2D541996-B99E-4000-AC89-6FE9FDB5ABBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1CD10A5-E6D0-4DCE-8CA5-8D8AEE28D203}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1CD10A5-E6D0-4DCE-8CA5-8D8AEE28D203}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1CD10A5-E6D0-4DCE-8CA5-8D8AEE28D203}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1CD10A5-E6D0-4DCE-8CA5-8D8AEE28D203}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D541996-B99E-4000-AC89-6FE9FDB5ABBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D541996-B99E-4000-AC89-6FE9FDB5ABBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D541996-B99E-4000-AC89-6FE9FDB5ABBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D541996-B99E-4000-AC89-6FE9FDB5ABBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {98865009-2A6A-4BC7-9FC0-60B6CB9E6008}
+	EndGlobalSection
+EndGlobal
